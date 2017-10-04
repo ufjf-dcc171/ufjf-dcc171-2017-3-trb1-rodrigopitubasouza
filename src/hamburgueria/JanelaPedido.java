@@ -13,6 +13,7 @@ import java.awt.event.ItemListener;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import javax.swing.DefaultListModel;
@@ -83,6 +84,7 @@ public class JanelaPedido extends JFrame{
         modelo.addElement("12");
         modelo.addElement("13");
         modelo.addElement("14");
+         
         
        
         JPanel mesas = new JPanel(new GridBagLayout());
