@@ -83,9 +83,9 @@ class Pedidos {
             horaTermino = termino.getHours()+":"+termino.getMinutes();
         }
         else{
-            horaTermino = " Pedido aberto";
+            horaTermino = "";
         }
-        return "Pedido{"+ "mesa= " + mesa + ", status= " + s + ", abertura= " + data.getHours() + ":" + data.getMinutes() + " término= " + horaTermino + '}';
+        return "Pedido{Mesa= " + mesa + ", Status= " + s + ", Abertura= " + data.getHours() + ":" + data.getMinutes() + " Término= " + horaTermino + '}';
     }
 
     
